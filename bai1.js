@@ -1,5 +1,4 @@
 console.log("Thể tích hình hộp (3,4,5):", tinhTheTichHinhHop(3,4,5));
-
 function tinhTheTichHinhHop(chieuDai, chieuRong, chieuCao) {
     if (chieuDai <= 0 || chieuRong <= 0 || chieuCao <= 0) {
         return "Thông số không hợp lệ, vui lòng nhập lại!";
